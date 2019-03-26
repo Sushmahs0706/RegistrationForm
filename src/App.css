@@ -1,33 +1,117 @@
-.App {
-  text-align: center;
-}
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
-}
+            * {
+              box-sizing: border-box;
+              
+            }
+            body{
+              background-color: white; 
+            }
+            
+            .App{
+               
+               font-family: Arial, Helvetica, sans-serif;
+               line-height:0.5;
+            }
+            div{
+                margin-bottom: 15px;
+                
+            }
+            .wufoo{
+                 background-color: rgb(207, 49, 49);
+                 padding: 30px;
+                 color: white;
+            }
+            
+            form {
+                background-color: white;
+                width:1000px;
+                height:700px;
+                border: 8px solid lightgrey;
+                margin:auto;
+                margin-top: 120px;
+                position:relative;
+                
+           }
+           
+           #a{
+               padding-left:35px;
+               padding-right: 35px;
+           }
+           
+           #b{
+                padding-left:35px;
+                padding-right: 35px;
+            }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+            #c{
+                padding-left:35px;
+                padding-right: 35px;
+            }
+           
+           span,p{
+               font-size: 12px;
+           }
+           
+           .titleClass{
+               width:55px;
+               display: inline-block;
+               text-align: center;
+           }
+           .firstClass{
+            width:104px;
+            display: inline-block;
+            text-align: center;
+           }
+           .lastClass{
+             width:104px;
+             display: inline-block;
+             text-align: center;
+           }
+           .suffixClass{
+            width:55px;
+            display: inline-block;
+            text-align: center;
+           }
+           .city{
+               width:225px;
+               display: inline-block;
+           }
+           .state{
+               width:225px;
+               display: inline-block;
+           }
+           .postal{
+               width:225px;
+               display: inline-block;
+           }
+           .country{
+               width:225px;
+               display:inline-block;
+           }
+           input:disabled,select:disabled{
+               background-color: grey;
+               color: white;
+           }
+           table {
+            font-family: arial, sans-serif;
+            font-size: 12px;
+            border-collapse: collapse;
+            width: 100%;
+            
+          }
+          
+          td, th {
+            border: 1px solid #dddddd;
+            text-align: left;
+            padding: 10px;
+          }
+          #t01{
+              width: 80%;
+              margin:auto;
+          }
+          li{
+              line-height: 20px;
 
-.App-link {
-  color: #61dafb;
-}
+          }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+  
